@@ -1,0 +1,64 @@
+    NUMBER1
+int main()
+{
+    int a;
+    cin >> a;
+    if (a > 0)
+        cout << a + 1 << endl;
+    else
+        cout << a << endl;
+}
+    NUMBER2
+int main()
+{
+int a, b;
+    cin >> a;
+    cin >> b;
+if (a>b)
+    cout << a;
+     else
+    cout << b;
+}
+    NUMBER3
+{
+    int a,b;
+    if (a != b)
+    cout << if(a,b);
+        else
+    a = 0;
+    b = 0;
+    cout << a << b;
+}
+    NUMBER4
+int main()
+{
+int x,y,z,Maximum;
+cout << "Chislo x: ";
+    cin >> x;
+    cout << endl << "Chislo y:";
+    cin >> y;
+    cout << endl << "Chislo z:";
+    cin >> z;
+if(x > y && x > z)
+    Maximum = x;
+    if(y > x && y > z)
+    Maximum = y;
+    else Maximum = z;
+    cout << "Naibolwee chislo eto: " << Maximum;
+}
+    NUMBER5
+int main()
+{
+int a,b,c;
+int summaa = 0;
+cin >> a;
+cin >> b;
+cin >> c;
+if (a<=b && a<=c)
+summaa = b+c;
+if (b<=c && b<=a)
+summaa = a+c;
+if (c<=a && c<=b)
+summaa =a+b;
+std::cout << summaa;
+}
