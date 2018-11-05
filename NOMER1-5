@@ -19,7 +19,7 @@ if (a>b)
      else
     cout << b;
 }
-    NUMBER3
+    NUMBER3 - NE KOMPILIT
 {
     int a,b;
     if (a != b)
